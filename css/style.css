@@ -1,3 +1,82 @@
-*{
-	border:1px solid black;
+header nav{
+	float:right;
+}
+nav li{
+	display:inline-block;
+}
+header figure{
+	float:left;
+}
+.barrera{
+	clear: both;
+}
+#proyectos, #categorias{
+	width:80%;
+	margin:auto;
+}
+.uno{
+	border: 1px solid green;
+	border-radius:20px;
+	height: 400px;
+}
+.dos{
+	border: 1px solid green;
+	border-radius:20px;
+	height:300px;
+}
+.tres, .cuatro{
+	border: 1px solid green;
+	border-radius:20px;
+	height: 500px;
+}
+#proyectos .uno figure{
+	float:left;
+}
+#proyectos .uno div{
+	margin-right: 10px;
+	width: 60%;
+	float:right;
+}
+#proyectos .dos figure{
+	float:right;
+}
+#proyectos .dos div{
+	margin-left: 10px;
+	width: 58%;
+	float:left;
+}
+#proyectos .tres{
+	float:left;
+	width: 49.5%;
+}
+#proyectos .tres div{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#proyectos .cuatro{
+	float:right;
+	width: 49.5%;
+}
+#proyectos .cuatro div{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#categoria1{
+	float:left;
+}
+#categoria2{
+	float:right;
+}
+footer{
+	height: 100px;
+	background-color: grey;
+	position:relative;
+}
+footer img{
+	float:right;
+	height: 100px;
+}
+footer form{
+	position:absolute;
+	bottom:0;
 }
